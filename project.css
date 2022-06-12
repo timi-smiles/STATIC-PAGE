@@ -1,0 +1,278 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#firstnav{
+    min-height: 15px;
+    margin-left: 150px;
+    background-color: transparent;
+    margin-top: 20px;
+}
+
+#firstnav a{
+    text-decoration: none;
+    color: #592600;
+    padding-left: 30px;
+    font-size: 18px;
+    font-style: italic;
+    font-weight: bolder;
+
+}
+#firstnav a:hover{
+    text-decoration: underline;
+}
+
+
+header{
+    background-color: #592600;
+    color: white;
+    min-height: 70px;
+}
+
+#logo img{
+    width: 150px;
+    height: 60px;
+    float: left;
+    padding-left: 20px;
+    padding-top: 10px;
+}
+
+header li{
+    display: inline;
+    float: left;
+    padding: 20px;
+}
+
+header ul{
+    margin: 0;
+    padding: 0;
+}
+
+nav{
+    float: right;
+}
+
+header li a{
+    color: white;
+    font-size: 17px;
+    text-transform: uppercase;
+    font-weight: bolder;
+    text-decoration: none;
+
+}
+
+header li a:hover{
+    color: black;
+}
+
+/* .current{
+    border-bottom: 3px solid orangered;
+} */
+
+
+.dropdown{
+    position: relative;
+    display: inline;
+}
+
+.dropdown-content{
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    width: 120px;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,.2);
+    z-index: 1;
+    margin-top: 65 px;
+    margin-left: 200px;
+}
+
+.dropdown-content a{
+    color: black;
+    padding: 5px 16px;
+    text-decoration: none;
+    display: block;
+    font-size: 15px;
+}
+
+.dropdown-content a:hover{
+    color: orangered;
+}
+
+.dropdown:hover .dropdown-content{
+    display: block;
+}
+#showcase{
+    background: linear-gradient(rgba(0,0,0,.7),rgba(0,0,0,.7)), url(./images/photo-1468495244123-6c6c332eeece.jpg);
+    height: 700px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-blend-mode: overlay;
+    background-position: top;
+    text-align: center;
+}
+#showcase h1{
+    padding-top: 250px;
+    font-size: 40px;
+    color: #f9f9f9;
+}
+#showcase p{
+    font-size: 20px;
+    color: #f9f9f9;
+}
+#showcase button{
+    width: 150px;
+    height: 50px;
+    font-size: 17px;
+    border: none;
+    border-radius: 10px;
+    color: black;
+    margin-top: 250px;
+}
+#showcase button:hover{
+    background-color: orangered;
+    color: white;
+}
+#newsletter{
+    background-color: #592600;
+    height: 65px;
+    color: white;
+    padding-left: 100px;
+}
+#newsletter h1{
+    padding-top: 20px;
+    float: left;
+    font-size: 30px;
+    padding-left: 60px;
+
+}
+#newsletter form{
+    float: right;
+    padding-top: 20px;
+    padding-right: 200px;
+}
+#newsletter form input{
+    width: 200px;
+    height: 30px;
+}
+#newsletter form button{
+    background-color: orangered;
+    color: white;
+    border: none;
+    height: 30px;
+    width: 80px;
+    border-radius: 5px;
+    font-size: 17px;
+}
+#skills{
+    background-color: #cfc5c5;
+}
+#skills h1{
+    text-align: center;
+    padding-top: 20px;
+    font-size: 30px;
+}
+#skills p{
+    text-align: center;
+    font-size: 20px;
+    font-style: italic;
+}
+.box{
+    width: 350px;
+    text-align: center;
+    box-shadow: 8px 9px 10px rgba(0,0,0,.7);
+    transform: scale(.9);
+    transition: all 2s;
+    margin-bottom: 10px;
+
+}
+.box:hover{
+    transform: scale(1);
+}
+.box img{
+    width: 100%;
+    height: 200px;
+}
+.boxes{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    width: 60%;
+    margin-top: 20px;
+    margin-left: 400px;
+}
+.box button{
+    background-color: orangered;
+    color: white;
+    border: none;
+    height: 30px;
+    width: 150px;
+    border-radius: 10px;
+    font-size: 17px;
+    margin-bottom: 10px;
+}
+#contact{
+    margin: 20px 50px;
+}
+#contact iframe{
+    width: 100%;
+}
+footer{
+    background-color: #592600;
+    min-height: 70px;
+    color: white;
+    padding-left: 100px;
+    padding-top: 50px;
+}
+.container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+.courses h2{
+    padding-bottom: 20px;
+}
+.courses a{
+    display: block;
+    color: white;
+    font-size: 20px;
+    text-decoration: none;
+    padding-bottom: 20px;
+    font-style: italic;
+}
+.contacts a{
+    display: block;
+    color: white;
+    font-size: 20px;
+    text-decoration: none;
+    padding-bottom: 20px;
+    font-style: italic;
+}
+.courses a:hover{
+    color: black;
+}
+.contacts h2{
+    display: block;
+    color: white;
+    font-size: 20px;
+    text-decoration: none;
+    padding-bottom: 20px;
+    font-style: italic;
+}
+.message button{
+    background-color: orangered;
+    color: white;
+    border: none;
+    height: 30px;
+    width: 150px;
+    border-radius: 10px;
+    font-size: 17px;
+    margin-bottom: 10px;
+}
+footer p{
+    text-align: center;
+    padding-top: 20px;
+    font-style: italic;
+    padding-bottom: 20px;
+}
+
+
